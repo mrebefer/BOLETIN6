@@ -13,11 +13,11 @@ import java.util.Scanner;
 public class PositivoNegativo {
 
     Scanner res = new Scanner(System.in);
-    int num1;
+    double num1;
 
     public void tecleaNumero() {
         System.out.println("Inserte o numero:");
-        num1 = res.nextInt();
+        num1 = res.nextDouble();
         if (num1 > 0) {
             System.out.println("+");
         } else if (num1 < 0) {
